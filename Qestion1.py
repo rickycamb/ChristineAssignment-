@@ -17,4 +17,4 @@ bike = Bike()
 
 print(vehicle.describe())  # Output: This is a vehicle.
 print(car.describe())      # Output: This is a car.
-print(bike.describe())     # Output: This is a bike
+print(bike.describe())

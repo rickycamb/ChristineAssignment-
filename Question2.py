@@ -16,6 +16,7 @@ class Rectangle(Shape):
     def area(self):
         return self.width * self.height
 
+
 def calculate_total_area(shapes):
     total_area = 0
     for shape in shapes:
@@ -28,6 +29,7 @@ shapes = [
     Rectangle(4, 6),
     Circle(3)
 ]
+
 
 total_area = calculate_total_area(shapes)
 print(f"Total area of all shapes: {total_area:.2f}")
